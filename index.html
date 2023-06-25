@@ -1,9 +1,95 @@
+
 <!doctype html>
 <html>
-  <head>
-    <title>Niall Simonian's Project 1</title>
-  </head>
-  <body>
-    <h1>Lede Program Project 1</h1>
-  </body>
+<head>
+    <title>Project 1</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+    <style>
+
+    #parent {
+        max-width: 500px;
+        margin: auto; 
+    }
+    #image{
+        width: 100%; 
+        max-width: 550px; 
+        margin: auto; 
+        border: none; 
+        display: block;
+        color: #808080; 
+        font-family; arial;
+    }
+    #introtext {
+        max-width: 550px;
+        margin: auto; 
+    }
+
+    #burdendataviz {
+        width: 100%; 
+    }
+        
+     #bodytext {
+        max-width: 550px;
+        margin: auto; 
+    }
+        
+    #costdataviz {
+        width: 100%; 
+    }
+      #endtext {
+        max-width: 550px;
+        margin: auto; 
+    }
+        
+    iframe {
+        width: 100%; 
+        max-width: 550px; 
+        margin: auto; 
+        border: none; 
+        display: block;
+    }
+
+    h1 {
+        text-align: center; 
+        font-weight: bold; 
+        font-family: georgia;
+    }
+
+  </style>
+</head>
+<body>
+    <div id="parent">
+        <h1>Out of time</h1>
+    </div>
+    <div id="image">
+    <img src="HousingYak.jpg" alt="Powerhouse Flats, a new apartment complex under construction along Powerhouse Road near Fred Meyer, is pictured on Wednesday, March 8, 2023, in Yakima, Wash." width="550" height="300">
+    <figcaption>Here will be an image description</figcaption>
+    </div>
+    <div id="introtext">
+        <h2 style="text-align:center; font-weight: normal; font-family:georgia; font-size: 20px; text-align: justify">The housing market is tight across the Yakima Valley. New construction has targeted higher-income tenants, often with rents between $1,500 and $2,000. That doesn’t help the housing market for low-income residents in a county where an estimated <a href="https://www.census.gov/quickfacts/fact/table/yakimacountywashington/INC110221">14.7% live in poverty</a> .
+</h2>
+    </div>
+    <div id="costdataviz">
+
+      <iframe title="Number of renter occupied units in Yakima County versus their cost " aria-label="Stacked Bars" id="datawrapper-chart-KMi5K" src="https://datawrapper.dwcdn.net/KMi5K/4/" scrolling="no" frameborder="0" height="276" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script>
+    </div>
+       </div>
+ 
+       <div id="bodytext">
+        <h2 style="text-align:center; font-weight: normal; font-family:georgia; font-size: 20px; text-align: justify">As affordable housing becomes more scarce, Yakima area renters are feeling the pressure. The number of rent-burdened tenants in the valley, or people who spend more than 30% of their income on rent, has continued to inch forward. <br><br> Data from the U.S. Census shows that just under half of Yakima's renters were considered rent burdened through the pandemic. The problem is likely to worsen as programs put in place to keep people housed during the pandemic fall away one by one.</h2>
+    </div>
+   <div id="burdendataviz">
+
+        <iframe title="How many households in Yakima County are considered rent burdened?" aria-label="Stacked Bars" id="datawrapper-chart-nIoqe" src="https://datawrapper.dwcdn.net/nIoqe/3/" scrolling="no" frameborder="0" style="" height="262" data-external="1">
+        </iframe>
+        <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+        </script>
+    </div>
+     <div id="endtext">
+        <h2 style="text-align:center; font-weight: normal; font-family:georgia; font-size: 20px; text-align: justify">For those looking for an affordable place to live, options are limited. The Bureau of Labor and Statistics described the cost of <a href="https://www.bls.gov/news.release/cpi.htm">shelter as the largest contributor to cost increases</a> during the last year. Yakima County’s COVID-19 rental assistance program, a key part of the puzzle for many tenants, expired in April. </h2>
+    </div>
+  </div>
+</body>
 </html>
